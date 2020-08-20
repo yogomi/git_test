@@ -1,0 +1,8 @@
+$ git init
+$ vim index.html
+$ git add index.html (gitの管理に、index.htmlを追加)
+$ git commit (gitの管理下に加えた変更を保存)
+
+
+
+$ git log (gitに行われた変更履歴を表示)
