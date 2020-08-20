@@ -17,3 +17,14 @@ $ git add -p index.html
 $ git add -p .
 
 このコマンドで、今いるフォルダ以下を全部addの対象にできる。
+
+
+$ git remote add origin https://github.com/yogomi/git_test.git
+(GitHubのgit_test.gitをgitのサーバーとして登録)
+
+$ git push -u origin master
+(gitのサーバーへPCにある変更を転送する)
+
+2回目以降は -u は必要ない。
+
+$ git push origin master
