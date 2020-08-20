@@ -28,3 +28,23 @@ $ git push -u origin master
 2回目以降は -u は必要ない。
 
 $ git push origin master
+
+$ git clone https://github.com/yogomi/git_test.git
+で、まっさらな状態から、git_test.gitをGitHubから取得する。
+
+そのあとは、
+$ git add
+$ git commit
+などで普通に編集するだけ。
+最後に、サーバーに保存する時には
+$ git push origin master
+
+もし、他の人の変更をgitサーバーから取ってきたい場合は
+
+$ git pull --rebase
+
+
+よくわからない状態でコマンドが止まらなくなったら
+ctrl(コントロール) + c
+で強制終了
+コマンドで、取ってこれる。
